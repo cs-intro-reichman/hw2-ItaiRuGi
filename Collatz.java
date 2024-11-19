@@ -29,7 +29,7 @@ public class Collatz {
 		}else if(Collatz == false){
 			System.out.println("Collatz is false");
 		}
-	}else if (args[1].equals("c")){
+	}else if (args[1].equals("c") || args[0].equals("c")){
 		int num = Integer.parseInt(args[0]);
 		for(int i = 1; i <= num; i ++){
 		int part = i;

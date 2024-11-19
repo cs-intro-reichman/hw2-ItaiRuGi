@@ -25,7 +25,7 @@ public class Collatz {
 		}
 	}	
 		if(Collatz){
-		System.out.println("Every one of the first " + args[0] + "hailstone sequences reached 1.");
+		System.out.println("Every one of the first " + args[0] + " hailstone sequences reached 1.");
 		}else if(Collatz == false){
 			System.out.println("Collatz is false");
 		}

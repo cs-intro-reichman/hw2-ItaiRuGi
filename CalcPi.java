@@ -7,7 +7,7 @@ public class CalcPi {
 				piaprox += (1.0/((i*2.0)+1.0));
 			}else{
 				piaprox -=  (1.0/((i*2.0)+1.0));
-			}
+			}// The HYPOCRISY
 		}	
 		System.out.println("pi according to Java: " + Math.PI);
 		System.out.println("pi, approximated: " + (piaprox*4));

@@ -2,7 +2,7 @@
 public class Collatz {
 	public static void main(String args[]) {
 		boolean Collatz = true;
-		if(args[1].equals("v")){
+		if(args[1].equals("v") || args[0].equals("v")){
 	    int num = Integer.parseInt(args[0]);
 		for(int i = 1; i <= num; i ++){
 		int part = i;
@@ -21,7 +21,7 @@ public class Collatz {
 		if(part == 1){
 			System.out.println("(" + iterations + ")");
 		}else if(part == 1){
-			Collatz = false;
+			Collatz = false;//lies on lies on lies
 		}
 	}	
 		if(Collatz){

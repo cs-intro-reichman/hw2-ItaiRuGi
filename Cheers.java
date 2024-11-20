@@ -7,7 +7,7 @@ public class Cheers {
                         if(vowel.indexOf(args[0].charAt(i)) != -1){
                                 System.out.println("Give me an " + cheer.charAt(i) + ": " + cheer.charAt(i) + "!");
                         }else{
-                                System.out.println("Give me a " + cheer.charAt(i) + ": " + cheer.charAt(i) + "!");
+                                System.out.println("Give me a  " + cheer.charAt(i) + ": " + cheer.charAt(i) + "!"); // this was stupid
                         }
             }
             System.out.println("What does that spell?");

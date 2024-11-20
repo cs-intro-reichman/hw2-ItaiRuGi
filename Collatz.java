@@ -4,9 +4,11 @@ public class Collatz {
 		boolean Collatz = true;
 		if(args[1].equals("v") || args[0].equals("v") || args[1].contains("v")){
 	    int num = Integer.parseInt(args[0]);
+		
 		for(int i = 1; i <= num; i ++){
 		int part = i;
 		int iterations = 1;
+		System.out.print(part + " ");
 		do{
 			if(part % 2 == 0){
 				part /= 2;

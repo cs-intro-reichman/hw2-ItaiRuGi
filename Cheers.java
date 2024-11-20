@@ -11,8 +11,8 @@ public class Cheers {
                         }
             }
             System.out.println("What does that spell?");
-            for(int i = 0; i < Integer.parseInt(args[1]); i++){
-                System.out.println(args[0] + "!!!"); // rando
+            for(int i = 0; i < Integer.parseInt(args[1]); i++){//blah blah
+                System.out.println(args[0].toUpperCase() + "!!!"); // rando
             }
         }
 }
